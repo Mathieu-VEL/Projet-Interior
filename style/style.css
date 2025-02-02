@@ -1,0 +1,35 @@
+.transparentbg {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.textesize {
+    width: 18rem
+}
+
+/* #bgsidebar {
+    background-image: url(/images/fond-book.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    padding: 66px;
+} */
+
+h2{
+    font-size: x-large;
+}
+
+P{
+    font-size: medium;
+}
+
+
+.Pad-top{
+    padding-top: 20px;
+}
+
+
+.text-fond-blanc {
+    color: #918f88;
+}
