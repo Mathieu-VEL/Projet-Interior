@@ -10,8 +10,9 @@
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/style/style.css">
-    <script src="/scripts/scritp.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="/scripts/scritp.js" defer></script>
+    <script src="/scripts/script2.js" defer></script>
     <title>superTitre</title>
 </head>
 
@@ -21,9 +22,9 @@
         <h1>INTERIORS</h1>
         <p class="text-muted">Magazine En Ligne - Nos Meilleures Idées</p>
     </header>
- <!--------------------- Fin Header --------------------->
- <!------------------ Nav-Bar -------------------->
- <!------------------ Menu-Burger -------------------->
+    <!--------------------- Fin Header --------------------->
+    <!------------------ Nav-Bar -------------------->
+    <!------------------ Menu-Burger -------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
         <div class="container d-flex justify-content-center m-auto">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -31,20 +32,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">01 ACCUEIL</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/index.html">01 ACCUEIL</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">02 À PROPOS</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">03 SERVICES</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">04 GALERIE</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">05 LES NEWS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#container">05 LES NEWS</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">06 CONTACT</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!------------------ Fin-Menu-Burger -------------------->
-<!------------------ Fin-Nav-Bar -------------------->
-<!------------------ Container -------------------->
-<!------------------ Slider -------------------->
+    <!------------------ Fin-Nav-Bar -------------------->
+    <!------------------ Container -------------------->
+    <!------------------ Slider -------------------->
     <menu class="container">
         <section class="d-flex justify-content-center position-relative">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -73,55 +74,54 @@
         <!------------------ Cards -------------------->
         <section class="container text-center my-5">
             <h3>NOUVELLE COLLECTION</h3>
-            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+            <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-1 justify-content-center">
                 <div class="card col m-3 mx-auto p-0 textesize">
                     <div class="card-body border border-3">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">CHAMBRES</h5>
                     </div>
-                    <img src="./images/vignette-chambre.jpg" class="mw-100 p-2 border border-3 " alt=" ..." />
+                    <img src="./images/vignette-chambre.jpg" class="mw-100 p-2 border border-3 " alt=" CHAMBRES" />
                 </div>
 
                 <div class="card col m-3 mx-auto p-0 textesize">
                     <div class="card-body border border-3">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">CUISUINES</h5>
                     </div>
-                    <img src="./images/vignette-cuisine.jpg" class="card-img-top w-100 p-2 border border-3" alt="..." />
+                    <img src="./images/vignette-cuisine.jpg" class="card-img-top w-100 p-2 border border-3"
+                        alt="CUISUINES" />
                 </div>
 
                 <div class="card col m-3 mx-auto p-0 textesize">
                     <div class="card-body border border-3">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">SALONS</h5>
                     </div>
                     <img src="./images/vignette-fauteuil.jpg" class="card-img-top w-100 p-2 border border-3"
-                        alt="..." />
+                        alt="SALONS" />
                 </div>
 
                 <div class="card col m-3 mx-auto p-0 textesize">
                     <div class="card-body border border-3">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">BAINS</h5>
                     </div>
                     <img src="./images/vignette-sallebain.jpg" class="card-img-top w-100 p-2 border border-3"
-                        alt="..." />
+                        alt="BAINS" />
                 </div>
             </div>
         </section>
         <!------------------ Fin-Cards -------------------->
         <!------------------ News -------------------->
-        <section class="container ">
+        <section id="container" class="container">
             <div class="row m-auto d-flex justify-content-center">
-                <div class="col-md-4">
+                <div class="col-md-3 ">
                     <h4>Dernières News</h4>
-                    <div class="news-box">
-                        <ul class="border">
-
-                        </ul>
-                        <a href="#">+ D'INFOS</a>
+                    <div>
+                        <div id="news1"></div>
+                        <div id="news1"></div>
                     </div>
-                    <div class="news-box">
-                        <ul>
-
-                        </ul>
-                        <a href="#">+ D'INFOS</a>
+                    <!-- <a href="#">+ D'INFOS</a> -->
+                    <div class="border border-3 bgspecialcolor p-3">
+                        <div id="news2"></div>
+                        <div id="news2"></div>
+                        <a href="#" class="nav-link">+ D'INFOS</a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -134,11 +134,50 @@
                         originales et insolites. Découvrez notre sélection d’objets ludiques et insolites et faites le
                         plein d’idées !</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 ps-5">
                     <div class="sidebar-box" id="bgsidebar">
                         <div class="col-md-8">
                             <h4>RESERVEZ NOTRE CATALOGUE</h4>
-                            <a href="#" class="btn btn-success">Cliquer ICI</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Clicker ICI
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Réserver son catalogue
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action="#" method="GET">
+                                                <div class="form-floating">
+                                                    <input type="email" id="email" class="form-control"
+                                                        placeholder="votre mail">
+                                                    <label for="email">Votre mail</label>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            J'accepte de recevoir le catalogue
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="btn btn-success">OK</button>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Fermer</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="row  col-md-12">
